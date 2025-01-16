@@ -1,0 +1,984 @@
+
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><title>Report</title><meta name="description" content="Report"/><style>
+    /* /app/tailwind.css */
+    *, ::before, ::after {
+      --tw-border-spacing-x: 0;
+      --tw-border-spacing-y: 0;
+      --tw-translate-x: 0;
+      --tw-translate-y: 0;
+      --tw-rotate: 0;
+      --tw-skew-x: 0;
+      --tw-skew-y: 0;
+      --tw-scale-x: 1;
+      --tw-scale-y: 1;
+      --tw-pan-x:  ;
+      --tw-pan-y:  ;
+      --tw-pinch-zoom:  ;
+      --tw-scroll-snap-strictness: proximity;
+      --tw-gradient-from-position:  ;
+      --tw-gradient-via-position:  ;
+      --tw-gradient-to-position:  ;
+      --tw-ordinal:  ;
+      --tw-slashed-zero:  ;
+      --tw-numeric-figure:  ;
+      --tw-numeric-spacing:  ;
+      --tw-numeric-fraction:  ;
+      --tw-ring-inset:  ;
+      --tw-ring-offset-width: 0px;
+      --tw-ring-offset-color: #fff;
+      --tw-ring-color: rgb(59 130 246 / 0.5);
+      --tw-ring-offset-shadow: 0 0 #0000;
+      --tw-ring-shadow: 0 0 #0000;
+      --tw-shadow: 0 0 #0000;
+      --tw-shadow-colored: 0 0 #0000;
+      --tw-blur:  ;
+      --tw-brightness:  ;
+      --tw-contrast:  ;
+      --tw-grayscale:  ;
+      --tw-hue-rotate:  ;
+      --tw-invert:  ;
+      --tw-saturate:  ;
+      --tw-sepia:  ;
+      --tw-drop-shadow:  ;
+      --tw-backdrop-blur:  ;
+      --tw-backdrop-brightness:  ;
+      --tw-backdrop-contrast:  ;
+      --tw-backdrop-grayscale:  ;
+      --tw-backdrop-hue-rotate:  ;
+      --tw-backdrop-invert:  ;
+      --tw-backdrop-opacity:  ;
+      --tw-backdrop-saturate:  ;
+      --tw-backdrop-sepia:  ;
+      --tw-contain-size:  ;
+      --tw-contain-layout:  ;
+      --tw-contain-paint:  ;
+      --tw-contain-style:  ;
+    }
+    
+    ::backdrop {
+      --tw-border-spacing-x: 0;
+      --tw-border-spacing-y: 0;
+      --tw-translate-x: 0;
+      --tw-translate-y: 0;
+      --tw-rotate: 0;
+      --tw-skew-x: 0;
+      --tw-skew-y: 0;
+      --tw-scale-x: 1;
+      --tw-scale-y: 1;
+      --tw-pan-x:  ;
+      --tw-pan-y:  ;
+      --tw-pinch-zoom:  ;
+      --tw-scroll-snap-strictness: proximity;
+      --tw-gradient-from-position:  ;
+      --tw-gradient-via-position:  ;
+      --tw-gradient-to-position:  ;
+      --tw-ordinal:  ;
+      --tw-slashed-zero:  ;
+      --tw-numeric-figure:  ;
+      --tw-numeric-spacing:  ;
+      --tw-numeric-fraction:  ;
+      --tw-ring-inset:  ;
+      --tw-ring-offset-width: 0px;
+      --tw-ring-offset-color: #fff;
+      --tw-ring-color: rgb(59 130 246 / 0.5);
+      --tw-ring-offset-shadow: 0 0 #0000;
+      --tw-ring-shadow: 0 0 #0000;
+      --tw-shadow: 0 0 #0000;
+      --tw-shadow-colored: 0 0 #0000;
+      --tw-blur:  ;
+      --tw-brightness:  ;
+      --tw-contrast:  ;
+      --tw-grayscale:  ;
+      --tw-hue-rotate:  ;
+      --tw-invert:  ;
+      --tw-saturate:  ;
+      --tw-sepia:  ;
+      --tw-drop-shadow:  ;
+      --tw-backdrop-blur:  ;
+      --tw-backdrop-brightness:  ;
+      --tw-backdrop-contrast:  ;
+      --tw-backdrop-grayscale:  ;
+      --tw-backdrop-hue-rotate:  ;
+      --tw-backdrop-invert:  ;
+      --tw-backdrop-opacity:  ;
+      --tw-backdrop-saturate:  ;
+      --tw-backdrop-sepia:  ;
+      --tw-contain-size:  ;
+      --tw-contain-layout:  ;
+      --tw-contain-paint:  ;
+      --tw-contain-style:  ;
+    }/*
+    ! tailwindcss v3.4.16 | MIT License | https://tailwindcss.com
+    *//*
+    1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
+    2. Allow adding a border to an element by just adding a border-width. (https://github.com/tailwindcss/tailwindcss/pull/116)
+    */
+    
+    *,
+    ::before,
+    ::after {
+      box-sizing: border-box; /* 1 */
+      border-width: 0; /* 2 */
+      border-style: solid; /* 2 */
+      border-color: #e5e7eb; /* 2 */
+    }
+    
+    ::before,
+    ::after {
+      --tw-content: '';
+    }
+    
+    /*
+    1. Use a consistent sensible line-height in all browsers.
+    2. Prevent adjustments of font size after orientation changes in iOS.
+    3. Use a more readable tab size.
+    4. Use the user's configured `sans` font-family by default.
+    5. Use the user's configured `sans` font-feature-settings by default.
+    6. Use the user's configured `sans` font-variation-settings by default.
+    7. Disable tap highlights on iOS
+    */
+    
+    html,
+    :host {
+      line-height: 1.5; /* 1 */
+      -webkit-text-size-adjust: 100%; /* 2 */
+      -moz-tab-size: 4; /* 3 */
+      -o-tab-size: 4;
+         tab-size: 4; /* 3 */
+      font-family: Inter, ui-sans-serif, system-ui, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; /* 4 */
+      font-feature-settings: normal; /* 5 */
+      font-variation-settings: normal; /* 6 */
+      -webkit-tap-highlight-color: transparent; /* 7 */
+    }
+    
+    /*
+    1. Remove the margin in all browsers.
+    2. Inherit line-height from `html` so users can set them as a class directly on the `html` element.
+    */
+    
+    body {
+      margin: 0; /* 1 */
+      line-height: inherit; /* 2 */
+    }
+    
+    /*
+    1. Add the correct height in Firefox.
+    2. Correct the inheritance of border color in Firefox. (https://bugzilla.mozilla.org/show_bug.cgi?id=190655)
+    3. Ensure horizontal rules are visible by default.
+    */
+    
+    hr {
+      height: 0; /* 1 */
+      color: inherit; /* 2 */
+      border-top-width: 1px; /* 3 */
+    }
+    
+    /*
+    Add the correct text decoration in Chrome, Edge, and Safari.
+    */
+    
+    abbr:where([title]) {
+      -webkit-text-decoration: underline dotted;
+              text-decoration: underline dotted;
+    }
+    
+    /*
+    Remove the default font size and weight for headings.
+    */
+    
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-size: inherit;
+      font-weight: inherit;
+    }
+    
+    /*
+    Reset links to optimize for opt-in styling instead of opt-out.
+    */
+    
+    a {
+      color: inherit;
+      text-decoration: inherit;
+    }
+    
+    /*
+    Add the correct font weight in Edge and Safari.
+    */
+    
+    b,
+    strong {
+      font-weight: bolder;
+    }
+    
+    /*
+    1. Use the user's configured `mono` font-family by default.
+    2. Use the user's configured `mono` font-feature-settings by default.
+    3. Use the user's configured `mono` font-variation-settings by default.
+    4. Correct the odd `em` font sizing in all browsers.
+    */
+    
+    code,
+    kbd,
+    samp,
+    pre {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; /* 1 */
+      font-feature-settings: normal; /* 2 */
+      font-variation-settings: normal; /* 3 */
+      font-size: 1em; /* 4 */
+    }
+    
+    /*
+    Add the correct font size in all browsers.
+    */
+    
+    small {
+      font-size: 80%;
+    }
+    
+    /*
+    Prevent `sub` and `sup` elements from affecting the line height in all browsers.
+    */
+    
+    sub,
+    sup {
+      font-size: 75%;
+      line-height: 0;
+      position: relative;
+      vertical-align: baseline;
+    }
+    
+    sub {
+      bottom: -0.25em;
+    }
+    
+    sup {
+      top: -0.5em;
+    }
+    
+    /*
+    1. Remove text indentation from table contents in Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=999088, https://bugs.webkit.org/show_bug.cgi?id=201297)
+    2. Correct table border color inheritance in all Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=935729, https://bugs.webkit.org/show_bug.cgi?id=195016)
+    3. Remove gaps between table borders by default.
+    */
+    
+    table {
+      text-indent: 0; /* 1 */
+      border-color: inherit; /* 2 */
+      border-collapse: collapse; /* 3 */
+    }
+    
+    /*
+    1. Change the font styles in all browsers.
+    2. Remove the margin in Firefox and Safari.
+    3. Remove default padding in all browsers.
+    */
+    
+    button,
+    input,
+    optgroup,
+    select,
+    textarea {
+      font-family: inherit; /* 1 */
+      font-feature-settings: inherit; /* 1 */
+      font-variation-settings: inherit; /* 1 */
+      font-size: 100%; /* 1 */
+      font-weight: inherit; /* 1 */
+      line-height: inherit; /* 1 */
+      letter-spacing: inherit; /* 1 */
+      color: inherit; /* 1 */
+      margin: 0; /* 2 */
+      padding: 0; /* 3 */
+    }
+    
+    /*
+    Remove the inheritance of text transform in Edge and Firefox.
+    */
+    
+    button,
+    select {
+      text-transform: none;
+    }
+    
+    /*
+    1. Correct the inability to style clickable types in iOS and Safari.
+    2. Remove default button styles.
+    */
+    
+    button,
+    input:where([type='button']),
+    input:where([type='reset']),
+    input:where([type='submit']) {
+      -webkit-appearance: button; /* 1 */
+      background-color: transparent; /* 2 */
+      background-image: none; /* 2 */
+    }
+    
+    /*
+    Use the modern Firefox focus style for all focusable elements.
+    */
+    
+    :-moz-focusring {
+      outline: auto;
+    }
+    
+    /*
+    Remove the additional `:invalid` styles in Firefox. (https://github.com/mozilla/gecko-dev/blob/2f9eacd9d3d995c937b4251a5557d95d494c9be1/layout/style/res/forms.css#L728-L737)
+    */
+    
+    :-moz-ui-invalid {
+      box-shadow: none;
+    }
+    
+    /*
+    Add the correct vertical alignment in Chrome and Firefox.
+    */
+    
+    progress {
+      vertical-align: baseline;
+    }
+    
+    /*
+    Correct the cursor style of increment and decrement buttons in Safari.
+    */
+    
+    ::-webkit-inner-spin-button,
+    ::-webkit-outer-spin-button {
+      height: auto;
+    }
+    
+    /*
+    1. Correct the odd appearance in Chrome and Safari.
+    2. Correct the outline style in Safari.
+    */
+    
+    [type='search'] {
+      -webkit-appearance: textfield; /* 1 */
+      outline-offset: -2px; /* 2 */
+    }
+    
+    /*
+    Remove the inner padding in Chrome and Safari on macOS.
+    */
+    
+    ::-webkit-search-decoration {
+      -webkit-appearance: none;
+    }
+    
+    /*
+    1. Correct the inability to style clickable types in iOS and Safari.
+    2. Change font properties to `inherit` in Safari.
+    */
+    
+    ::-webkit-file-upload-button {
+      -webkit-appearance: button; /* 1 */
+      font: inherit; /* 2 */
+    }
+    
+    /*
+    Add the correct display in Chrome and Safari.
+    */
+    
+    summary {
+      display: list-item;
+    }
+    
+    /*
+    Removes the default spacing and border for appropriate elements.
+    */
+    
+    blockquote,
+    dl,
+    dd,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    hr,
+    figure,
+    p,
+    pre {
+      margin: 0;
+    }
+    
+    fieldset {
+      margin: 0;
+      padding: 0;
+    }
+    
+    legend {
+      padding: 0;
+    }
+    
+    ol,
+    ul,
+    menu {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    
+    /*
+    Reset default styling for dialogs.
+    */
+    dialog {
+      padding: 0;
+    }
+    
+    /*
+    Prevent resizing textareas horizontally by default.
+    */
+    
+    textarea {
+      resize: vertical;
+    }
+    
+    /*
+    1. Reset the default placeholder opacity in Firefox. (https://github.com/tailwindlabs/tailwindcss/issues/3300)
+    2. Set the default placeholder color to the user's configured gray 400 color.
+    */
+    
+    input::-moz-placeholder, textarea::-moz-placeholder {
+      opacity: 1; /* 1 */
+      color: #9ca3af; /* 2 */
+    }
+    
+    input::placeholder,
+    textarea::placeholder {
+      opacity: 1; /* 1 */
+      color: #9ca3af; /* 2 */
+    }
+    
+    /*
+    Set the default cursor for buttons.
+    */
+    
+    button,
+    [role="button"] {
+      cursor: pointer;
+    }
+    
+    /*
+    Make sure disabled buttons don't get the pointer cursor.
+    */
+    :disabled {
+      cursor: default;
+    }
+    
+    /*
+    1. Make replaced elements `display: block` by default. (https://github.com/mozdevs/cssremedy/issues/14)
+    2. Add `vertical-align: middle` to align replaced elements more sensibly by default. (https://github.com/jensimmons/cssremedy/issues/14#issuecomment-634934210)
+       This can trigger a poorly considered lint error in some tools but is included by design.
+    */
+    
+    img,
+    svg,
+    video,
+    canvas,
+    audio,
+    iframe,
+    embed,
+    object {
+      display: block; /* 1 */
+      vertical-align: middle; /* 2 */
+    }
+    
+    /*
+    Constrain images and videos to the parent width and preserve their intrinsic aspect ratio. (https://github.com/mozdevs/cssremedy/issues/14)
+    */
+    
+    img,
+    video {
+      max-width: 100%;
+      height: auto;
+    }
+    
+    /* Make elements with the HTML hidden attribute stay hidden by default */
+    [hidden]:where(:not([hidden="until-found"])) {
+      display: none;
+    }
+    .-mx-6 {
+      margin-left: -1.5rem;
+      margin-right: -1.5rem;
+    }
+    .my-8 {
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+    }
+    .mr-2 {
+      margin-right: 0.5rem;
+    }
+    .mr-4 {
+      margin-right: 1rem;
+    }
+    .mr-8 {
+      margin-right: 2rem;
+    }
+    .mt-4 {
+      margin-top: 1rem;
+    }
+    .flex {
+      display: flex;
+    }
+    .table {
+      display: table;
+    }
+    .grid {
+      display: grid;
+    }
+    .h-12 {
+      height: 3rem;
+    }
+    .h-24 {
+      height: 6rem;
+    }
+    .h-40 {
+      height: 10rem;
+    }
+    .h-5 {
+      height: 1.25rem;
+    }
+    .h-56 {
+      height: 14rem;
+    }
+    .h-64 {
+      height: 16rem;
+    }
+    .h-96 {
+      height: 24rem;
+    }
+    .h-\[1px\] {
+      height: 1px;
+    }
+    .w-12 {
+      width: 3rem;
+    }
+    .w-20 {
+      width: 5rem;
+    }
+    .w-32 {
+      width: 8rem;
+    }
+    .w-36 {
+      width: 9rem;
+    }
+    .w-40 {
+      width: 10rem;
+    }
+    .w-5 {
+      width: 1.25rem;
+    }
+    .w-64 {
+      width: 16rem;
+    }
+    .w-\[30\%\] {
+      width: 30%;
+    }
+    .w-\[65\%\] {
+      width: 65%;
+    }
+    .w-full {
+      width: 100%;
+    }
+    .w-screen {
+      width: 100vw;
+    }
+    .min-w-full {
+      min-width: 100%;
+    }
+    .flex-1 {
+      flex: 1 1 0%;
+    }
+    .flex-grow {
+      flex-grow: 1;
+    }
+    .border-collapse {
+      border-collapse: collapse;
+    }
+    .grid-cols-2 {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+    .grid-rows-2 {
+      grid-template-rows: repeat(2, minmax(0, 1fr));
+    }
+    .flex-col {
+      flex-direction: column;
+    }
+    .items-start {
+      align-items: flex-start;
+    }
+    .items-center {
+      align-items: center;
+    }
+    .justify-start {
+      justify-content: flex-start;
+    }
+    .justify-center {
+      justify-content: center;
+    }
+    .justify-between {
+      justify-content: space-between;
+    }
+    .gap-6 {
+      gap: 1.5rem;
+    }
+    .gap-8 {
+      gap: 2rem;
+    }
+    .space-x-12 > :not([hidden]) ~ :not([hidden]) {
+      --tw-space-x-reverse: 0;
+      margin-right: calc(3rem * var(--tw-space-x-reverse));
+      margin-left: calc(3rem * calc(1 - var(--tw-space-x-reverse)));
+    }
+    .space-x-3 > :not([hidden]) ~ :not([hidden]) {
+      --tw-space-x-reverse: 0;
+      margin-right: calc(0.75rem * var(--tw-space-x-reverse));
+      margin-left: calc(0.75rem * calc(1 - var(--tw-space-x-reverse)));
+    }
+    .space-x-4 > :not([hidden]) ~ :not([hidden]) {
+      --tw-space-x-reverse: 0;
+      margin-right: calc(1rem * var(--tw-space-x-reverse));
+      margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
+    }
+    .space-y-12 > :not([hidden]) ~ :not([hidden]) {
+      --tw-space-y-reverse: 0;
+      margin-top: calc(3rem * calc(1 - var(--tw-space-y-reverse)));
+      margin-bottom: calc(3rem * var(--tw-space-y-reverse));
+    }
+    .space-y-16 > :not([hidden]) ~ :not([hidden]) {
+      --tw-space-y-reverse: 0;
+      margin-top: calc(4rem * calc(1 - var(--tw-space-y-reverse)));
+      margin-bottom: calc(4rem * var(--tw-space-y-reverse));
+    }
+    .space-y-2 > :not([hidden]) ~ :not([hidden]) {
+      --tw-space-y-reverse: 0;
+      margin-top: calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));
+      margin-bottom: calc(0.5rem * var(--tw-space-y-reverse));
+    }
+    .space-y-3 > :not([hidden]) ~ :not([hidden]) {
+      --tw-space-y-reverse: 0;
+      margin-top: calc(0.75rem * calc(1 - var(--tw-space-y-reverse)));
+      margin-bottom: calc(0.75rem * var(--tw-space-y-reverse));
+    }
+    .space-y-4 > :not([hidden]) ~ :not([hidden]) {
+      --tw-space-y-reverse: 0;
+      margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
+      margin-bottom: calc(1rem * var(--tw-space-y-reverse));
+    }
+    .space-y-6 > :not([hidden]) ~ :not([hidden]) {
+      --tw-space-y-reverse: 0;
+      margin-top: calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));
+      margin-bottom: calc(1.5rem * var(--tw-space-y-reverse));
+    }
+    .space-y-8 > :not([hidden]) ~ :not([hidden]) {
+      --tw-space-y-reverse: 0;
+      margin-top: calc(2rem * calc(1 - var(--tw-space-y-reverse)));
+      margin-bottom: calc(2rem * var(--tw-space-y-reverse));
+    }
+    .overflow-x-auto {
+      overflow-x: auto;
+    }
+    .rounded-full {
+      border-radius: 9999px;
+    }
+    .rounded-lg {
+      border-radius: 0.5rem;
+    }
+    .border {
+      border-width: 1px;
+    }
+    .border-b {
+      border-bottom-width: 1px;
+    }
+    .border-b-2 {
+      border-bottom-width: 2px;
+    }
+    .border-t {
+      border-top-width: 1px;
+    }
+    .border-dotted {
+      border-style: dotted;
+    }
+    .border-black {
+      --tw-border-opacity: 1;
+      border-color: rgb(0 0 0 / var(--tw-border-opacity, 1));
+    }
+    .border-gray-300 {
+      --tw-border-opacity: 1;
+      border-color: rgb(209 213 219 / var(--tw-border-opacity, 1));
+    }
+    .border-gray-400 {
+      --tw-border-opacity: 1;
+      border-color: rgb(156 163 175 / var(--tw-border-opacity, 1));
+    }
+    .bg-black {
+      --tw-bg-opacity: 1;
+      background-color: rgb(0 0 0 / var(--tw-bg-opacity, 1));
+    }
+    .bg-firebrick {
+      --tw-bg-opacity: 1;
+      background-color: rgb(196 57 29 / var(--tw-bg-opacity, 1));
+    }
+    .bg-forestgreen {
+      --tw-bg-opacity: 1;
+      background-color: rgb(41 116 29 / var(--tw-bg-opacity, 1));
+    }
+    .bg-gray-100 {
+      --tw-bg-opacity: 1;
+      background-color: rgb(243 244 246 / var(--tw-bg-opacity, 1));
+    }
+    .bg-gray-200 {
+      --tw-bg-opacity: 1;
+      background-color: rgb(229 231 235 / var(--tw-bg-opacity, 1));
+    }
+    .bg-gray-50 {
+      --tw-bg-opacity: 1;
+      background-color: rgb(249 250 251 / var(--tw-bg-opacity, 1));
+    }
+    .bg-tealishBlue {
+      --tw-bg-opacity: 1;
+      background-color: rgb(20 93 160 / var(--tw-bg-opacity, 1));
+    }
+    .bg-white {
+      --tw-bg-opacity: 1;
+      background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
+    }
+    .bg-yellow-500 {
+      --tw-bg-opacity: 1;
+      background-color: rgb(234 179 8 / var(--tw-bg-opacity, 1));
+    }
+    .p-36 {
+      padding: 9rem;
+    }
+    .p-4 {
+      padding: 1rem;
+    }
+    .p-6 {
+      padding: 1.5rem;
+    }
+    .p-8 {
+      padding: 2rem;
+    }
+    .px-36 {
+      padding-left: 9rem;
+      padding-right: 9rem;
+    }
+    .px-6 {
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+    }
+    .py-16 {
+      padding-top: 4rem;
+      padding-bottom: 4rem;
+    }
+    .py-2 {
+      padding-top: 0.5rem;
+      padding-bottom: 0.5rem;
+    }
+    .py-3 {
+      padding-top: 0.75rem;
+      padding-bottom: 0.75rem;
+    }
+    .py-4 {
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+    }
+    .py-6 {
+      padding-top: 1.5rem;
+      padding-bottom: 1.5rem;
+    }
+    .pl-8 {
+      padding-left: 2rem;
+    }
+    .pt-2 {
+      padding-top: 0.5rem;
+    }
+    .text-left {
+      text-align: left;
+    }
+    .text-center {
+      text-align: center;
+    }
+    .text-2xl {
+      font-size: 1.5rem;
+      line-height: 2rem;
+    }
+    .text-3xl {
+      font-size: 1.875rem;
+      line-height: 2.25rem;
+    }
+    .text-4xl {
+      font-size: 2.25rem;
+      line-height: 2.5rem;
+    }
+    .text-6xl {
+      font-size: 3.75rem;
+      line-height: 1;
+    }
+    .text-base {
+      font-size: 1rem;
+      line-height: 1.5rem;
+    }
+    .text-lg {
+      font-size: 1.125rem;
+      line-height: 1.75rem;
+    }
+    .text-xl {
+      font-size: 1.25rem;
+      line-height: 1.75rem;
+    }
+    .font-bold {
+      font-weight: 700;
+    }
+    .font-extralight {
+      font-weight: 200;
+    }
+    .font-light {
+      font-weight: 300;
+    }
+    .font-medium {
+      font-weight: 500;
+    }
+    .font-semibold {
+      font-weight: 600;
+    }
+    .italic {
+      font-style: italic;
+    }
+    .text-black {
+      --tw-text-opacity: 1;
+      color: rgb(0 0 0 / var(--tw-text-opacity, 1));
+    }
+    .text-gray-600 {
+      --tw-text-opacity: 1;
+      color: rgb(75 85 99 / var(--tw-text-opacity, 1));
+    }
+    .text-gray-700 {
+      --tw-text-opacity: 1;
+      color: rgb(55 65 81 / var(--tw-text-opacity, 1));
+    }
+    .text-white {
+      --tw-text-opacity: 1;
+      color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+    }
+    .shadow-md {
+      --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+      --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
+      box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+    }
+    
+    .title {
+      font-size: 1.875rem;
+      line-height: 2.25rem;
+      font-weight: 700;
+    }
+    
+    .subtitle {
+      font-size: 1.125rem;
+      line-height: 1.75rem;
+      font-weight: 700;
+    }
+    
+    .content {
+      font-size: 1.125rem;
+      line-height: 1.75rem;
+    }
+    
+    .subcontent {
+      font-size: 1rem;
+      line-height: 1.5rem;
+    }
+    
+    /* styles.css */
+    @media print {
+      .print-page {
+        page-break-after: always; /* Force a break after each logical page */
+      }
+    
+      .page-break-after {
+        page-break-before: always;
+      }
+    }
+    
+    .l2-height {
+      height: 60px; 
+    }
+    
+    .score-font-size {
+      font-size: 1.2rem; /* Adjust this value to your preference */
+    }
+    
+    .odd\:bg-gray-100:nth-child(odd) {
+      --tw-bg-opacity: 1;
+      background-color: rgb(243 244 246 / var(--tw-bg-opacity, 1));
+    }
+    
+    .odd\:bg-gray-50:nth-child(odd) {
+      --tw-bg-opacity: 1;
+      background-color: rgb(249 250 251 / var(--tw-bg-opacity, 1));
+    }
+    
+    </style><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous"/><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&amp;display=swap"/></head><body><div class="font-roboto w-screen"><div class="w-full bg-black text-white flex justify-center flex-col font-extralight px-36 py-16"><div class="space-y-2"><h1 class="text-3xl font-light">SKIT, BANGALORE</h1><h1 class="text-6xl font-light">STUDENT KSA ANALYSIS REPORT</h1><h1 class="text-lg pt-2">REPORT BY: INUNITY LLP</h1></div></div><div class="p-36 space-y-12"><div class="space-y-4 text-xl"><div class="flex items-center text-2xl"><span class="font-medium text-black mr-4 w-32">Name<!-- --> :</span><span class="font-bold text-black border-b-2 border-dotted border-gray-400 flex-grow">~name</span></div><div class="flex items-center text-2xl"><span class="font-medium text-black mr-4 w-32">USN<!-- --> :</span><span class="font-bold text-black border-b-2 border-dotted border-gray-400 flex-grow">~usn</span></div></div><div class="border-b w-full border-black h-[1px]"></div><div class="space-y-4"><h2 class="font-bold text-4xl">THANK YOU FOR TAKING THE TEST!</h2><div class="text-xl"><p class="italic">You were assessed on 3 key areas: Knowledge, Skill and Personality</p><p>Your behavioural assessment showcases your general temperament and natural tendencies which will help you understand what environments you will thrive in, followed by aptitude and coding assessments categorised by companies, to help you understand where you currently stand and the steps you must take to improve.</p></div></div><div class="border-b w-full border-black h-[1px]"></div><div class="print-page"><div class="text-2xl"><div class="space-y-6"><h1 class="font-bold text-4xl">SURVEY OVERVIEW!</h1><p class="text-2xl">Your behavioural assessment showcases your general temperament and natural tendencies which will help you understand what environments you will thrive in, followed by aptitude and coding assessments.</p></div><div class="py-6"><div class="py-6 space-y-16"><div class="space-y-3"><h1 class="font-bold text-3xl">1. DISC PERSONALITY TEST</h1><p class="text-2xl">It helps you understand how you naturally respond to situations, especially when working on projects, innovation, or handling uncertainty. It also helps you figure out the kind of people you need on your team to balance and complement your strengths.</p></div><div class="space-y-3"><h1 class="font-bold text-3xl">2. APTITUDE ASSESSMENT</h1><p class="text-2xl">This assessment is designed to assess your verbal, quantitative as well as logical aptitude with varying levels of complexity. This will help you understand and improve on your aptitude.</p></div><div class="space-y-3"><h1 class="font-bold text-3xl">3. KNOWLEDGE ASSESSMENT</h1><p class="text-2xl">This assessment is designed to assess your verbal, quantitative as well as logical aptitude with varying levels of complexity. This will help you understand and improve on your aptitude.</p></div></div></div></div></div><div class="h-12"></div><div class="page-break"><div class="flex flex-col items-center space-y-8"><h1 class="font-bold text-4xl text-left w-full">YOUR RESULTS OF THE DISC PERSONALITY TEST</h1><div class="flex items-start space-x-12"><div class="grid grid-cols-2 grid-rows-2 w-64 h-64"><div class="bg-forestgreen flex items-center justify-center text-white font-bold text-2xl">~steadsc<!-- -->%</div><div class="bg-firebrick flex items-center justify-center text-white font-bold text-2xl">~domsc<!-- -->%</div><div class="bg-yellow-500 flex items-center justify-center text-white font-bold text-2xl">~infsc<!-- -->%</div><div class="bg-tealishBlue flex items-center justify-center text-white font-bold text-2xl">~conssc<!-- -->%</div></div><div class="flex flex-col justify-start space-y-6"><div class="flex items-start space-x-3"><div class="w-5 h-5 rounded-full bg-forestgreen" aria-label="STEADINESS"></div><div class="flex flex-col"><p class="text-lg font-medium">STEADINESS</p><p class="text-base text-gray-600">Stability and consistency.</p></div></div><div class="flex items-start space-x-3"><div class="w-5 h-5 rounded-full bg-firebrick" aria-label="DOMINANCE"></div><div class="flex flex-col"><p class="text-lg font-medium">DOMINANCE</p><p class="text-base text-gray-600">Assertive and goal-oriented.</p></div></div><div class="flex items-start space-x-3"><div class="w-5 h-5 rounded-full bg-yellow-500" aria-label="INFLUENCE"></div><div class="flex flex-col"><p class="text-lg font-medium">INFLUENCE</p><p class="text-base text-gray-600">Sociable and enthusiastic.</p></div></div><div class="flex items-start space-x-3"><div class="w-5 h-5 rounded-full bg-tealishBlue" aria-label="CONSCIENTIOUSNESS"></div><div class="flex flex-col"><p class="text-lg font-medium">CONSCIENTIOUSNESS</p><p class="text-base text-gray-600">Analytical and detail-focused.</p></div></div></div></div><div class="space-y-4"><h2 class="font-bold text-3xl">DEEP DIVING INTO YOUR DISC PERSONALITY TEST</h2><p class="text-lg">The DISC test presents a series of questions asking participants to select traits or behaviors that resonate most and least with them. Based on responses, a personalized profile is generated, highlighting the dominant DISC style and secondary traits. This creates a unique &quot;DISC Personality DNA&quot; for each person.</p><div class="grid grid-cols-2 grid-rows-2 gap-6"><div class="bg-forestgreen flex flex-col text-white"><div class="p-6 flex-1"><h3 class="font-bold text-2xl">Key Traits:</h3><p class="text-lg">You are supportive, reliable, and calm. You value stability and consistency and thrive in environments where you can build long-term relationships and provide steady, dependable support to others.</p><h3 class="font-bold text-2xl mt-4">Strengths:</h3><p class="text-lg">You are dependable and calm under pressure, excelling in maintaining long-term relationships. You are a supportive team player.</p></div><div class="bg-black text-white p-4 flex items-center h-40"><div><h3 class="font-bold text-2xl">Challenges:</h3><p class="text-lg">You might resist change and struggle to make quick decisions under pressure. You may also avoid conflict and passivity in decision-making.</p></div></div></div><div class="bg-firebrick flex flex-col text-white"><div class="p-6 flex-1"><h3 class="font-bold text-2xl">Key Traits:</h3><p class="text-lg">You are assertive, goal-oriented, and competitive. You are driven to achieve results and thrive in situations where quick decisions are needed. You don&#x27;t shy away from challenges and are eager to take risks to get ahead.</p><h3 class="font-bold text-2xl mt-4">Strengths:</h3><p class="text-lg">You have strong leadership abilities and a drive to achieve results. You make quick decisions and take calculated risks.</p></div><div class="bg-black text-white p-4 flex items-center h-40"><div><h3 class="font-bold text-2xl">Challenges:</h3><p class="text-lg">You may come across as blunt or aggressive, sometimes overlooking details or others&#x27; feelings. You can also be impatient with slow processes or people who aren&#x27;t results-driven.</p></div></div></div><div class="bg-yellow-500 flex flex-col text-white"><div class="p-6 flex-1"><h3 class="font-bold text-2xl">Key Traits:</h3><p class="text-lg">You are sociable, optimistic, and enthusiastic. Building connections and engaging with people energizes you. You enjoy motivating others and creating an uplifting atmosphere wherever you go.</p><h3 class="font-bold text-2xl mt-4">Strengths:</h3><p class="text-lg">You excel in communication, relationship building, and motivation. You have a creative and persuasive nature, making you an effective influencer.</p></div><div class="bg-black text-white p-4 flex items-center h-40"><div><h3 class="font-bold text-2xl">Challenges:</h3><p class="text-lg">You might struggle with organization, become overly optimistic, and sometimes lack follow-through on commitments.</p></div></div></div><div class="bg-tealishBlue flex flex-col text-white"><div class="p-6 flex-1"><h3 class="font-bold text-2xl">Key Traits:</h3><p class="text-lg">You are analytical, detail-oriented, and methodical. You thrive in environments where precision and accuracy are valued, and you enjoy tackling complex problems by breaking them down into manageable parts.</p><h3 class="font-bold text-2xl mt-4">Strengths:</h3><p class="text-lg">You are excellent at problem-solving, highly organized, and focused on producing high-quality work.</p></div><div class="bg-black text-white p-4 flex items-center h-40"><div><h3 class="font-bold text-2xl">Challenges:</h3><p class="text-lg">You may struggle with flexibility and change and can sometimes become perfectionistic or bogged down by details, losing sight of the bigger picture.</p></div></div></div></div></div></div></div><div class="h-56"></div><div class="space-y-12 text-2xl"><h1 class="font-bold text-4xl">YOUR RESULTS OF THE APTITUDE ASSESSMENT</h1><p>You participated in an aptitude assessment to evaluate your cognitive abilities and identify your strengths and areas for development. The assessment covered verbal reasoning, logical problem-solving, and quantitative aptitude. Note, Aptitude is not equivalent to IQ. Your aptitude can be developed over time through practice.</p><div class="w-full bg-black text-white p-8 space-y-4 font-light"><p>You&#x27;re most likely suited for</p><p class="font-bold text-3xl">Mid-level roles in MAANG, GCC and GSI companies</p><p>Mid-level technical roles (software engineer, product manager) at MAANG, Mid-level roles (analyst, system engineer) at GCCS and Mid-level roles (developer, consultant) at GSIs</p></div><div><h2 class="font-bold text-3xl">DEEP DIVING INTO YOUR APTITUDE ASSESSMENT TEST</h2></div></div><div class="overflow-x-auto text-lg"><table class="min-w-full border-collapse border border-gray-400 rounded-lg shadow-md text-xl"><thead class="bg-gray-200 text-gray-700"><tr><th class="border border-gray-400 px-6 py-4 text-left font-semibold">Aptitude Area</th><th class="border border-gray-400 px-6 py-4 text-center font-semibold">Scores by Complexity</th><th class="border border-gray-400 px-6 py-4 text-left font-semibold">Level</th><th class="border border-gray-400 px-6 py-4 text-left font-semibold">Performance Indicator</th></tr></thead><tbody class="bg-gray-50"><tr class="odd:bg-gray-100"><td class="border border-gray-400 px-6 py-4 font-medium">Quantitative Aptitude</td><td class="border border-gray-400 px-6 py-4 text-base text-center"><div class="flex flex-col"><div class="flex items-center py-2 border-b border-gray-300 -mx-6 px-6"><span class="font-bold text-xl w-12 mr-2">L1:</span> <span class="text-xl">~ql1/5</span></div><div class="flex items-center py-2 l2-height border-b border-gray-300 -mx-6 px-6"><span class="font-bold text-xl w-12 mr-2">L2:</span> <span class="text-xl">~ql2/4</span></div><div class="flex items-center py-2 -mx-6 px-6"><span class="font-bold text-xl w-12 mr-2">L3:</span> <span class="text-xl">~ql3/6</span></div></div></td><td class="border border-gray-400 px-6 py-4 text-center font-medium l2-height">~qlevel</td><td class="border border-gray-400 px-6 py-4 text-lg">~qperf</td></tr><tr class="odd:bg-gray-100"><td class="border border-gray-400 px-6 py-4 font-medium">Verbal Aptitude</td><td class="border border-gray-400 px-6 py-4 text-base text-center"><div class="flex flex-col"><div class="flex items-center py-2 border-b border-gray-300 -mx-6 px-6"><span class="font-bold text-xl w-12 mr-2">L1:</span> <span class="text-xl">~vl1/3</span></div><div class="flex items-center py-2 l2-height border-b border-gray-300 -mx-6 px-6"><span class="font-bold text-xl w-12 mr-2">L2:</span> <span class="text-xl">~vl2/8</span></div><div class="flex items-center py-2 -mx-6 px-6"><span class="font-bold text-xl w-12 mr-2">L3:</span> <span class="text-xl">~vl3/6</span></div></div></td><td class="border border-gray-400 px-6 py-4 text-center font-medium l2-height">~vlevel</td><td class="border border-gray-400 px-6 py-4 text-lg">~vperf</td></tr><tr class="odd:bg-gray-100"><td class="border border-gray-400 px-6 py-4 font-medium">Logical Aptitude</td><td class="border border-gray-400 px-6 py-4 text-base text-center"><div class="flex flex-col"><div class="flex items-center py-2 border-b border-gray-300 -mx-6 px-6"><span class="font-bold text-xl w-12 mr-2">L1:</span> <span class="text-xl">0/0</span></div><div class="flex items-center py-2 l2-height border-b border-gray-300 -mx-6 px-6"><span class="font-bold text-xl w-12 mr-2">L2:</span> <span class="text-xl">~ll2/6</span></div><div class="flex items-center py-2 -mx-6 px-6"><span class="font-bold text-xl w-12 mr-2">L3:</span> <span class="text-xl">~ll3/12</span></div></div></td><td class="border border-gray-400 px-6 py-4 text-center font-medium l2-height">~llevel</td><td class="border border-gray-400 px-6 py-4 text-lg">~lperf</td></tr></tbody><tfoot class="bg-gray-100 border-t border-gray-400"><tr><td class="border border-gray-400 px-6 py-4 font-semibold text-lg">Total</td><td class="border border-gray-400 px-6 py-4 text-xl font-semibold pl-8">~AptiTotal/50</td><td class="border border-gray-400 px-6 py-4 text-center text-lg font-semibold">~AptiLevel</td><td class="border border-gray-400 px-6 py-4 text-lg">~operf</td></tr></tfoot></table></div><div class="h-96"></div><div class="space-y-12 text-xl"><h1 class="font-bold text-3xl">YOUR RESULTS OF THE KNOWLEDGE AND CODING ASSESSMENTS</h1><div><h2 class="font-bold text-2xl">KNOWLEDGE ASSESSMENT</h2><p class="text-2xl">You participated in an aptitude assessment to evaluate your cognitive abilities and identify your strengths and areas for development. The assessment covered verbal reasoning, logical problem-solving, and quantitative aptitude. Note, aptitude is not equivalent to IQ. Your aptitude can be developed over time through practice.</p></div><div class="overflow-x-auto text-lg"><table class="min-w-full border-collapse border border-gray-400 rounded-lg shadow-md text-xl"><thead class="bg-gray-200 text-gray-700"><tr><th class="border border-gray-400 px-6 py-4 text-left font-semibold">Range of Score out of 10</th><th class="border border-gray-400 px-6 py-4 text-center font-semibold">Level of Proficiency</th><th class="border border-gray-400 px-6 py-4 text-left font-semibold">Descriptor</th></tr></thead><tbody class="bg-white"><tr class="odd:bg-gray-50"><td class="border border-gray-400 px-6 py-4 text-left">0 - 1 point</td><td class="border border-gray-400 px-6 py-4 text-center font-medium">L4 - Basic</td><td class="border border-gray-400 px-6 py-4 text-left">Limited to basic syntax, language features, and debugging.</td></tr><tr class="odd:bg-gray-50"><td class="border border-gray-400 px-6 py-4 text-left">2 - 3 points</td><td class="border border-gray-400 px-6 py-4 text-center font-medium">L3 - GCC/GSIs</td><td class="border border-gray-400 px-6 py-4 text-left">Familiarity with foundational programming concepts like stack operations and basic algorithm requirements.</td></tr><tr class="odd:bg-gray-50"><td class="border border-gray-400 px-6 py-4 text-left">4 - 6 points</td><td class="border border-gray-400 px-6 py-4 text-center font-medium">L2 - GCC</td><td class="border border-gray-400 px-6 py-4 text-left">Solid understanding of intermediate programming concepts like search/sort complexities and basic data structure usage.</td></tr><tr class="odd:bg-gray-50"><td class="border border-gray-400 px-6 py-4 text-left">7 - 10 points</td><td class="border border-gray-400 px-6 py-4 text-center font-medium">L1 - MAANG</td><td class="border border-gray-400 px-6 py-4 text-left">Mastery in solving advanced questions related to algorithm complexity and critical data structure usage.</td></tr></tbody></table></div><div class="w-full bg-black text-white p-8 space-y-4 font-light"><p class="text-2xl">You&#x27;re most likely suited for</p><p class="font-bold text-2xl">~suitedfor</p><p class="text-2xl">~suitedcont</p></div><div class="flex justify-between items-start space-x-4 p-4"><div class="overflow-x-auto w-[65%]"><table class="min-w-full border-collapse border border-gray-300 text-left text-base"><thead><tr class="bg-gray-100"><th class="border border-gray-300 px-6 py-3 w-40">Complexity</th><th class="border border-gray-300 px-6 py-3 w-36">Total Score</th></tr></thead><tbody><tr><td class="border border-gray-300 px-6 py-4">L1</td><td class="border border-gray-300 px-6 py-4">tq_l1/10</td></tr><tr><td class="border border-gray-300 px-6 py-4">L2</td><td class="border border-gray-300 px-6 py-4">tq_l2/10</td></tr><tr><td class="border border-gray-300 px-6 py-4">L3</td><td class="border border-gray-300 px-6 py-4">tq_l3/10</td></tr><tr><td class="border border-gray-300 px-6 py-4">L4</td><td class="border border-gray-300 px-6 py-4">tq_l4/10</td></tr><tr class="font-bold"><td class="border border-gray-300 px-6 py-4">Overall Score</td><td class="border border-gray-300 px-6 py-4">tq_scr/10</td></tr></tbody></table></div><div class="space-y-4 flex flex-col items-center text-white text-2xl font-bold w-[30%]"><div class="bg-black w-full h-24 text-center flex items-center justify-center"><h2>BAND: ~band</h2></div><div class="bg-black w-full h-24 text-center flex items-center justify-center"><h2>~kprof PROFICIENCY</h2></div></div></div></div><div><div class="h-96"></div><div class="space-y-8"><h2 class="font-bold text-3xl">CODING ASSESSMENT</h2><p class="text-xl">You attempted coding challenges divided across 4 complexity levels mapped to different company bands. These questions were designed keeping in mind the requirements of various roles in each band of companies. Your final score will be calculated by the completeness of your code and its ability to pass all the test cases. Based on the range of your total score after the coding test, your level of proficiency is declared as L1 (Below Average), L2 (Average), L3 (Above Average), and L4 (Exceptional).</p></div><div class="my-8"><h3 class="font-bold text-3xl">SCORING CRITERIA</h3><div class="overflow-x-auto mt-4"><table class="min-w-full border-collapse border border-gray-300 text-left"><thead><tr class="bg-gray-100"><th class="border border-gray-300 px-6 py-3 text-xl">Range of Score</th><th class="border border-gray-300 px-6 py-3 text-xl">Level of proficiency</th><th class="border border-gray-300 px-6 py-3 text-xl">Descriptor</th></tr></thead><tbody><tr><td class="border border-gray-300 px-6 py-4 text-lg">0 - 6 points</td><td class="border border-gray-300 px-6 py-4 font-bold text-lg">Level 1</td><td class="border border-gray-300 px-6 py-4 text-lg">Focus on building fundamental skills and tackling more complex algorithms.</td></tr><tr><td class="border border-gray-300 px-6 py-4 text-lg">7 - 22 points</td><td class="border border-gray-300 px-6 py-4 font-bold text-lg">Level 2</td><td class="border border-gray-300 px-6 py-4 text-lg">Strong candidate with room for growth, focusing on refining optimization and solving more challenging problems.</td></tr><tr><td class="border border-gray-300 px-6 py-4 text-lg">23 - 43 points</td><td class="border border-gray-300 px-6 py-4 font-bold text-lg">Level 3</td><td class="border border-gray-300 px-6 py-4 text-lg">Solid fit for mid-level roles with further improvement needed in optimization and advanced algorithms.</td></tr><tr><td class="border border-gray-300 px-6 py-4 text-lg">44 - 75 points</td><td class="border border-gray-300 px-6 py-4 font-bold text-lg">Level 4</td><td class="border border-gray-300 px-6 py-4 text-lg">Strong candidate for technical roles, demonstrating high proficiency and the ability to handle real-world challenges. Ready for more senior roles or specialized positions with further focus on software design and performance.</td></tr></tbody></table></div></div><div class="my-8"><div class="border-b w-full border-black h-[1px]"></div></div><div class="space-y-8"><h3 class="font-bold text-3xl ">RESULT</h3><div class="grid grid-cols-2 gap-8 items-start"><div class="overflow-x-auto"><table class="min-w-full border-collapse border border-gray-300 text-center"><thead><tr class="bg-gray-100"><th class="border border-gray-300 px-6 py-3 text-xl">Set</th><th class="border border-gray-300 px-6 py-3 text-xl">Marks Scored</th></tr></thead><tbody><tr><td class="border border-gray-300 px-6 py-4 text-lg">L1</td><td class="border border-gray-300 px-6 py-4 text-lg">~codel1/6</td></tr><tr><td class="border border-gray-300 px-6 py-4 text-lg">L2</td><td class="border border-gray-300 px-6 py-4 text-lg">~codel2/16</td></tr><tr><td class="border border-gray-300 px-6 py-4 text-lg">L3</td><td class="border border-gray-300 px-6 py-4 text-lg">~codel3/21</td></tr><tr><td class="border border-gray-300 px-6 py-4 text-lg">L4</td><td class="border border-gray-300 px-6 py-4 text-lg">~codel4/31</td></tr><tr class="font-bold"><td class="border border-gray-300 px-6 py-4 text-lg">Total Score</td><td class="border border-gray-300 px-6 py-4 text-lg">~codetot/75</td></tr></tbody></table></div><div class="bg-black text-white p-8 space-y-4"><h2 class="text-3xl font-bold">LEVEL 2 PROFICIENCY</h2><p class="text-lg">You’ve made good progress! You’re now able to solve intermediate problems, including string manipulations and array-based challenges. Your current level shows that you can think logically and apply algorithms to solve problems with moderate complexity.</p><p class="text-lg">Companies like MAANG, GCC, and GSI will value your ability to handle these types of tasks, but there is still room for growth. To be a strong contender, continue working on optimizing your solutions and tackling more challenging problems to demonstrate your readiness for a professional coding environment.</p></div></div></div></div></div></div><script>((STORAGE_KEY, restoreKey) => {
+        if (!window.history.state || !window.history.state.key) {
+          let key = Math.random().toString(32).slice(2);
+          window.history.replaceState({
+            key
+          }, "");
+        }
+        try {
+          let positions = JSON.parse(sessionStorage.getItem(STORAGE_KEY) || "{}");
+          let storedY = positions[restoreKey || window.history.state.key];
+          if (typeof storedY === "number") {
+            window.scrollTo(0, storedY);
+          }
+        } catch (error) {
+          console.error(error);
+          sessionStorage.removeItem(STORAGE_KEY);
+        }
+      })("positions", null)</script><link rel="modulepreload" href="/node_modules/@remix-run/dev/dist/config/defaults/entry.client.tsx"/><link rel="modulepreload" href="/app/root.tsx"/><link rel="modulepreload" href="/app/routes/_index.tsx"/><script>window.__remixContext = {"basename":"/","criticalCss":"\n/* /app/tailwind.css */\n*, ::before, ::after {\n  --tw-border-spacing-x: 0;\n  --tw-border-spacing-y: 0;\n  --tw-translate-x: 0;\n  --tw-translate-y: 0;\n  --tw-rotate: 0;\n  --tw-skew-x: 0;\n  --tw-skew-y: 0;\n  --tw-scale-x: 1;\n  --tw-scale-y: 1;\n  --tw-pan-x:  ;\n  --tw-pan-y:  ;\n  --tw-pinch-zoom:  ;\n  --tw-scroll-snap-strictness: proximity;\n  --tw-gradient-from-position:  ;\n  --tw-gradient-via-position:  ;\n  --tw-gradient-to-position:  ;\n  --tw-ordinal:  ;\n  --tw-slashed-zero:  ;\n  --tw-numeric-figure:  ;\n  --tw-numeric-spacing:  ;\n  --tw-numeric-fraction:  ;\n  --tw-ring-inset:  ;\n  --tw-ring-offset-width: 0px;\n  --tw-ring-offset-color: #fff;\n  --tw-ring-color: rgb(59 130 246 / 0.5);\n  --tw-ring-offset-shadow: 0 0 #0000;\n  --tw-ring-shadow: 0 0 #0000;\n  --tw-shadow: 0 0 #0000;\n  --tw-shadow-colored: 0 0 #0000;\n  --tw-blur:  ;\n  --tw-brightness:  ;\n  --tw-contrast:  ;\n  --tw-grayscale:  ;\n  --tw-hue-rotate:  ;\n  --tw-invert:  ;\n  --tw-saturate:  ;\n  --tw-sepia:  ;\n  --tw-drop-shadow:  ;\n  --tw-backdrop-blur:  ;\n  --tw-backdrop-brightness:  ;\n  --tw-backdrop-contrast:  ;\n  --tw-backdrop-grayscale:  ;\n  --tw-backdrop-hue-rotate:  ;\n  --tw-backdrop-invert:  ;\n  --tw-backdrop-opacity:  ;\n  --tw-backdrop-saturate:  ;\n  --tw-backdrop-sepia:  ;\n  --tw-contain-size:  ;\n  --tw-contain-layout:  ;\n  --tw-contain-paint:  ;\n  --tw-contain-style:  ;\n}\n\n::backdrop {\n  --tw-border-spacing-x: 0;\n  --tw-border-spacing-y: 0;\n  --tw-translate-x: 0;\n  --tw-translate-y: 0;\n  --tw-rotate: 0;\n  --tw-skew-x: 0;\n  --tw-skew-y: 0;\n  --tw-scale-x: 1;\n  --tw-scale-y: 1;\n  --tw-pan-x:  ;\n  --tw-pan-y:  ;\n  --tw-pinch-zoom:  ;\n  --tw-scroll-snap-strictness: proximity;\n  --tw-gradient-from-position:  ;\n  --tw-gradient-via-position:  ;\n  --tw-gradient-to-position:  ;\n  --tw-ordinal:  ;\n  --tw-slashed-zero:  ;\n  --tw-numeric-figure:  ;\n  --tw-numeric-spacing:  ;\n  --tw-numeric-fraction:  ;\n  --tw-ring-inset:  ;\n  --tw-ring-offset-width: 0px;\n  --tw-ring-offset-color: #fff;\n  --tw-ring-color: rgb(59 130 246 / 0.5);\n  --tw-ring-offset-shadow: 0 0 #0000;\n  --tw-ring-shadow: 0 0 #0000;\n  --tw-shadow: 0 0 #0000;\n  --tw-shadow-colored: 0 0 #0000;\n  --tw-blur:  ;\n  --tw-brightness:  ;\n  --tw-contrast:  ;\n  --tw-grayscale:  ;\n  --tw-hue-rotate:  ;\n  --tw-invert:  ;\n  --tw-saturate:  ;\n  --tw-sepia:  ;\n  --tw-drop-shadow:  ;\n  --tw-backdrop-blur:  ;\n  --tw-backdrop-brightness:  ;\n  --tw-backdrop-contrast:  ;\n  --tw-backdrop-grayscale:  ;\n  --tw-backdrop-hue-rotate:  ;\n  --tw-backdrop-invert:  ;\n  --tw-backdrop-opacity:  ;\n  --tw-backdrop-saturate:  ;\n  --tw-backdrop-sepia:  ;\n  --tw-contain-size:  ;\n  --tw-contain-layout:  ;\n  --tw-contain-paint:  ;\n  --tw-contain-style:  ;\n}/*\n! tailwindcss v3.4.16 | MIT License | https://tailwindcss.com\n*//*\n1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)\n2. Allow adding a border to an element by just adding a border-width. (https://github.com/tailwindcss/tailwindcss/pull/116)\n*/\n\n*,\n::before,\n::after {\n  box-sizing: border-box; /* 1 */\n  border-width: 0; /* 2 */\n  border-style: solid; /* 2 */\n  border-color: #e5e7eb; /* 2 */\n}\n\n::before,\n::after {\n  --tw-content: '';\n}\n\n/*\n1. Use a consistent sensible line-height in all browsers.\n2. Prevent adjustments of font size after orientation changes in iOS.\n3. Use a more readable tab size.\n4. Use the user's configured `sans` font-family by default.\n5. Use the user's configured `sans` font-feature-settings by default.\n6. Use the user's configured `sans` font-variation-settings by default.\n7. Disable tap highlights on iOS\n*/\n\nhtml,\n:host {\n  line-height: 1.5; /* 1 */\n  -webkit-text-size-adjust: 100%; /* 2 */\n  -moz-tab-size: 4; /* 3 */\n  -o-tab-size: 4;\n     tab-size: 4; /* 3 */\n  font-family: Inter, ui-sans-serif, system-ui, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; /* 4 */\n  font-feature-settings: normal; /* 5 */\n  font-variation-settings: normal; /* 6 */\n  -webkit-tap-highlight-color: transparent; /* 7 */\n}\n\n/*\n1. Remove the margin in all browsers.\n2. Inherit line-height from `html` so users can set them as a class directly on the `html` element.\n*/\n\nbody {\n  margin: 0; /* 1 */\n  line-height: inherit; /* 2 */\n}\n\n/*\n1. Add the correct height in Firefox.\n2. Correct the inheritance of border color in Firefox. (https://bugzilla.mozilla.org/show_bug.cgi?id=190655)\n3. Ensure horizontal rules are visible by default.\n*/\n\nhr {\n  height: 0; /* 1 */\n  color: inherit; /* 2 */\n  border-top-width: 1px; /* 3 */\n}\n\n/*\nAdd the correct text decoration in Chrome, Edge, and Safari.\n*/\n\nabbr:where([title]) {\n  -webkit-text-decoration: underline dotted;\n          text-decoration: underline dotted;\n}\n\n/*\nRemove the default font size and weight for headings.\n*/\n\nh1,\nh2,\nh3,\nh4,\nh5,\nh6 {\n  font-size: inherit;\n  font-weight: inherit;\n}\n\n/*\nReset links to optimize for opt-in styling instead of opt-out.\n*/\n\na {\n  color: inherit;\n  text-decoration: inherit;\n}\n\n/*\nAdd the correct font weight in Edge and Safari.\n*/\n\nb,\nstrong {\n  font-weight: bolder;\n}\n\n/*\n1. Use the user's configured `mono` font-family by default.\n2. Use the user's configured `mono` font-feature-settings by default.\n3. Use the user's configured `mono` font-variation-settings by default.\n4. Correct the odd `em` font sizing in all browsers.\n*/\n\ncode,\nkbd,\nsamp,\npre {\n  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace; /* 1 */\n  font-feature-settings: normal; /* 2 */\n  font-variation-settings: normal; /* 3 */\n  font-size: 1em; /* 4 */\n}\n\n/*\nAdd the correct font size in all browsers.\n*/\n\nsmall {\n  font-size: 80%;\n}\n\n/*\nPrevent `sub` and `sup` elements from affecting the line height in all browsers.\n*/\n\nsub,\nsup {\n  font-size: 75%;\n  line-height: 0;\n  position: relative;\n  vertical-align: baseline;\n}\n\nsub {\n  bottom: -0.25em;\n}\n\nsup {\n  top: -0.5em;\n}\n\n/*\n1. Remove text indentation from table contents in Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=999088, https://bugs.webkit.org/show_bug.cgi?id=201297)\n2. Correct table border color inheritance in all Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=935729, https://bugs.webkit.org/show_bug.cgi?id=195016)\n3. Remove gaps between table borders by default.\n*/\n\ntable {\n  text-indent: 0; /* 1 */\n  border-color: inherit; /* 2 */\n  border-collapse: collapse; /* 3 */\n}\n\n/*\n1. Change the font styles in all browsers.\n2. Remove the margin in Firefox and Safari.\n3. Remove default padding in all browsers.\n*/\n\nbutton,\ninput,\noptgroup,\nselect,\ntextarea {\n  font-family: inherit; /* 1 */\n  font-feature-settings: inherit; /* 1 */\n  font-variation-settings: inherit; /* 1 */\n  font-size: 100%; /* 1 */\n  font-weight: inherit; /* 1 */\n  line-height: inherit; /* 1 */\n  letter-spacing: inherit; /* 1 */\n  color: inherit; /* 1 */\n  margin: 0; /* 2 */\n  padding: 0; /* 3 */\n}\n\n/*\nRemove the inheritance of text transform in Edge and Firefox.\n*/\n\nbutton,\nselect {\n  text-transform: none;\n}\n\n/*\n1. Correct the inability to style clickable types in iOS and Safari.\n2. Remove default button styles.\n*/\n\nbutton,\ninput:where([type='button']),\ninput:where([type='reset']),\ninput:where([type='submit']) {\n  -webkit-appearance: button; /* 1 */\n  background-color: transparent; /* 2 */\n  background-image: none; /* 2 */\n}\n\n/*\nUse the modern Firefox focus style for all focusable elements.\n*/\n\n:-moz-focusring {\n  outline: auto;\n}\n\n/*\nRemove the additional `:invalid` styles in Firefox. (https://github.com/mozilla/gecko-dev/blob/2f9eacd9d3d995c937b4251a5557d95d494c9be1/layout/style/res/forms.css#L728-L737)\n*/\n\n:-moz-ui-invalid {\n  box-shadow: none;\n}\n\n/*\nAdd the correct vertical alignment in Chrome and Firefox.\n*/\n\nprogress {\n  vertical-align: baseline;\n}\n\n/*\nCorrect the cursor style of increment and decrement buttons in Safari.\n*/\n\n::-webkit-inner-spin-button,\n::-webkit-outer-spin-button {\n  height: auto;\n}\n\n/*\n1. Correct the odd appearance in Chrome and Safari.\n2. Correct the outline style in Safari.\n*/\n\n[type='search'] {\n  -webkit-appearance: textfield; /* 1 */\n  outline-offset: -2px; /* 2 */\n}\n\n/*\nRemove the inner padding in Chrome and Safari on macOS.\n*/\n\n::-webkit-search-decoration {\n  -webkit-appearance: none;\n}\n\n/*\n1. Correct the inability to style clickable types in iOS and Safari.\n2. Change font properties to `inherit` in Safari.\n*/\n\n::-webkit-file-upload-button {\n  -webkit-appearance: button; /* 1 */\n  font: inherit; /* 2 */\n}\n\n/*\nAdd the correct display in Chrome and Safari.\n*/\n\nsummary {\n  display: list-item;\n}\n\n/*\nRemoves the default spacing and border for appropriate elements.\n*/\n\nblockquote,\ndl,\ndd,\nh1,\nh2,\nh3,\nh4,\nh5,\nh6,\nhr,\nfigure,\np,\npre {\n  margin: 0;\n}\n\nfieldset {\n  margin: 0;\n  padding: 0;\n}\n\nlegend {\n  padding: 0;\n}\n\nol,\nul,\nmenu {\n  list-style: none;\n  margin: 0;\n  padding: 0;\n}\n\n/*\nReset default styling for dialogs.\n*/\ndialog {\n  padding: 0;\n}\n\n/*\nPrevent resizing textareas horizontally by default.\n*/\n\ntextarea {\n  resize: vertical;\n}\n\n/*\n1. Reset the default placeholder opacity in Firefox. (https://github.com/tailwindlabs/tailwindcss/issues/3300)\n2. Set the default placeholder color to the user's configured gray 400 color.\n*/\n\ninput::-moz-placeholder, textarea::-moz-placeholder {\n  opacity: 1; /* 1 */\n  color: #9ca3af; /* 2 */\n}\n\ninput::placeholder,\ntextarea::placeholder {\n  opacity: 1; /* 1 */\n  color: #9ca3af; /* 2 */\n}\n\n/*\nSet the default cursor for buttons.\n*/\n\nbutton,\n[role=\"button\"] {\n  cursor: pointer;\n}\n\n/*\nMake sure disabled buttons don't get the pointer cursor.\n*/\n:disabled {\n  cursor: default;\n}\n\n/*\n1. Make replaced elements `display: block` by default. (https://github.com/mozdevs/cssremedy/issues/14)\n2. Add `vertical-align: middle` to align replaced elements more sensibly by default. (https://github.com/jensimmons/cssremedy/issues/14#issuecomment-634934210)\n   This can trigger a poorly considered lint error in some tools but is included by design.\n*/\n\nimg,\nsvg,\nvideo,\ncanvas,\naudio,\niframe,\nembed,\nobject {\n  display: block; /* 1 */\n  vertical-align: middle; /* 2 */\n}\n\n/*\nConstrain images and videos to the parent width and preserve their intrinsic aspect ratio. (https://github.com/mozdevs/cssremedy/issues/14)\n*/\n\nimg,\nvideo {\n  max-width: 100%;\n  height: auto;\n}\n\n/* Make elements with the HTML hidden attribute stay hidden by default */\n[hidden]:where(:not([hidden=\"until-found\"])) {\n  display: none;\n}\r\n.-mx-6 {\n  margin-left: -1.5rem;\n  margin-right: -1.5rem;\n}\r\n.my-8 {\n  margin-top: 2rem;\n  margin-bottom: 2rem;\n}\r\n.mr-2 {\n  margin-right: 0.5rem;\n}\r\n.mr-4 {\n  margin-right: 1rem;\n}\r\n.mr-8 {\n  margin-right: 2rem;\n}\r\n.mt-4 {\n  margin-top: 1rem;\n}\r\n.flex {\n  display: flex;\n}\r\n.table {\n  display: table;\n}\r\n.grid {\n  display: grid;\n}\r\n.h-12 {\n  height: 3rem;\n}\r\n.h-24 {\n  height: 6rem;\n}\r\n.h-40 {\n  height: 10rem;\n}\r\n.h-5 {\n  height: 1.25rem;\n}\r\n.h-56 {\n  height: 14rem;\n}\r\n.h-64 {\n  height: 16rem;\n}\r\n.h-96 {\n  height: 24rem;\n}\r\n.h-\\[1px\\] {\n  height: 1px;\n}\r\n.w-12 {\n  width: 3rem;\n}\r\n.w-20 {\n  width: 5rem;\n}\r\n.w-32 {\n  width: 8rem;\n}\r\n.w-36 {\n  width: 9rem;\n}\r\n.w-40 {\n  width: 10rem;\n}\r\n.w-5 {\n  width: 1.25rem;\n}\r\n.w-64 {\n  width: 16rem;\n}\r\n.w-\\[30\\%\\] {\n  width: 30%;\n}\r\n.w-\\[65\\%\\] {\n  width: 65%;\n}\r\n.w-full {\n  width: 100%;\n}\r\n.w-screen {\n  width: 100vw;\n}\r\n.min-w-full {\n  min-width: 100%;\n}\r\n.flex-1 {\n  flex: 1 1 0%;\n}\r\n.flex-grow {\n  flex-grow: 1;\n}\r\n.border-collapse {\n  border-collapse: collapse;\n}\r\n.grid-cols-2 {\n  grid-template-columns: repeat(2, minmax(0, 1fr));\n}\r\n.grid-rows-2 {\n  grid-template-rows: repeat(2, minmax(0, 1fr));\n}\r\n.flex-col {\n  flex-direction: column;\n}\r\n.items-start {\n  align-items: flex-start;\n}\r\n.items-center {\n  align-items: center;\n}\r\n.justify-start {\n  justify-content: flex-start;\n}\r\n.justify-center {\n  justify-content: center;\n}\r\n.justify-between {\n  justify-content: space-between;\n}\r\n.gap-6 {\n  gap: 1.5rem;\n}\r\n.gap-8 {\n  gap: 2rem;\n}\r\n.space-x-12 \u003e :not([hidden]) ~ :not([hidden]) {\n  --tw-space-x-reverse: 0;\n  margin-right: calc(3rem * var(--tw-space-x-reverse));\n  margin-left: calc(3rem * calc(1 - var(--tw-space-x-reverse)));\n}\r\n.space-x-3 \u003e :not([hidden]) ~ :not([hidden]) {\n  --tw-space-x-reverse: 0;\n  margin-right: calc(0.75rem * var(--tw-space-x-reverse));\n  margin-left: calc(0.75rem * calc(1 - var(--tw-space-x-reverse)));\n}\r\n.space-x-4 \u003e :not([hidden]) ~ :not([hidden]) {\n  --tw-space-x-reverse: 0;\n  margin-right: calc(1rem * var(--tw-space-x-reverse));\n  margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));\n}\r\n.space-y-12 \u003e :not([hidden]) ~ :not([hidden]) {\n  --tw-space-y-reverse: 0;\n  margin-top: calc(3rem * calc(1 - var(--tw-space-y-reverse)));\n  margin-bottom: calc(3rem * var(--tw-space-y-reverse));\n}\r\n.space-y-16 \u003e :not([hidden]) ~ :not([hidden]) {\n  --tw-space-y-reverse: 0;\n  margin-top: calc(4rem * calc(1 - var(--tw-space-y-reverse)));\n  margin-bottom: calc(4rem * var(--tw-space-y-reverse));\n}\r\n.space-y-2 \u003e :not([hidden]) ~ :not([hidden]) {\n  --tw-space-y-reverse: 0;\n  margin-top: calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));\n  margin-bottom: calc(0.5rem * var(--tw-space-y-reverse));\n}\r\n.space-y-3 \u003e :not([hidden]) ~ :not([hidden]) {\n  --tw-space-y-reverse: 0;\n  margin-top: calc(0.75rem * calc(1 - var(--tw-space-y-reverse)));\n  margin-bottom: calc(0.75rem * var(--tw-space-y-reverse));\n}\r\n.space-y-4 \u003e :not([hidden]) ~ :not([hidden]) {\n  --tw-space-y-reverse: 0;\n  margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));\n  margin-bottom: calc(1rem * var(--tw-space-y-reverse));\n}\r\n.space-y-6 \u003e :not([hidden]) ~ :not([hidden]) {\n  --tw-space-y-reverse: 0;\n  margin-top: calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));\n  margin-bottom: calc(1.5rem * var(--tw-space-y-reverse));\n}\r\n.space-y-8 \u003e :not([hidden]) ~ :not([hidden]) {\n  --tw-space-y-reverse: 0;\n  margin-top: calc(2rem * calc(1 - var(--tw-space-y-reverse)));\n  margin-bottom: calc(2rem * var(--tw-space-y-reverse));\n}\r\n.overflow-x-auto {\n  overflow-x: auto;\n}\r\n.rounded-full {\n  border-radius: 9999px;\n}\r\n.rounded-lg {\n  border-radius: 0.5rem;\n}\r\n.border {\n  border-width: 1px;\n}\r\n.border-b {\n  border-bottom-width: 1px;\n}\r\n.border-b-2 {\n  border-bottom-width: 2px;\n}\r\n.border-t {\n  border-top-width: 1px;\n}\r\n.border-dotted {\n  border-style: dotted;\n}\r\n.border-black {\n  --tw-border-opacity: 1;\n  border-color: rgb(0 0 0 / var(--tw-border-opacity, 1));\n}\r\n.border-gray-300 {\n  --tw-border-opacity: 1;\n  border-color: rgb(209 213 219 / var(--tw-border-opacity, 1));\n}\r\n.border-gray-400 {\n  --tw-border-opacity: 1;\n  border-color: rgb(156 163 175 / var(--tw-border-opacity, 1));\n}\r\n.bg-black {\n  --tw-bg-opacity: 1;\n  background-color: rgb(0 0 0 / var(--tw-bg-opacity, 1));\n}\r\n.bg-firebrick {\n  --tw-bg-opacity: 1;\n  background-color: rgb(196 57 29 / var(--tw-bg-opacity, 1));\n}\r\n.bg-forestgreen {\n  --tw-bg-opacity: 1;\n  background-color: rgb(41 116 29 / var(--tw-bg-opacity, 1));\n}\r\n.bg-gray-100 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(243 244 246 / var(--tw-bg-opacity, 1));\n}\r\n.bg-gray-200 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(229 231 235 / var(--tw-bg-opacity, 1));\n}\r\n.bg-gray-50 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(249 250 251 / var(--tw-bg-opacity, 1));\n}\r\n.bg-tealishBlue {\n  --tw-bg-opacity: 1;\n  background-color: rgb(20 93 160 / var(--tw-bg-opacity, 1));\n}\r\n.bg-white {\n  --tw-bg-opacity: 1;\n  background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));\n}\r\n.bg-yellow-500 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(234 179 8 / var(--tw-bg-opacity, 1));\n}\r\n.p-36 {\n  padding: 9rem;\n}\r\n.p-4 {\n  padding: 1rem;\n}\r\n.p-6 {\n  padding: 1.5rem;\n}\r\n.p-8 {\n  padding: 2rem;\n}\r\n.px-36 {\n  padding-left: 9rem;\n  padding-right: 9rem;\n}\r\n.px-6 {\n  padding-left: 1.5rem;\n  padding-right: 1.5rem;\n}\r\n.py-16 {\n  padding-top: 4rem;\n  padding-bottom: 4rem;\n}\r\n.py-2 {\n  padding-top: 0.5rem;\n  padding-bottom: 0.5rem;\n}\r\n.py-3 {\n  padding-top: 0.75rem;\n  padding-bottom: 0.75rem;\n}\r\n.py-4 {\n  padding-top: 1rem;\n  padding-bottom: 1rem;\n}\r\n.py-6 {\n  padding-top: 1.5rem;\n  padding-bottom: 1.5rem;\n}\r\n.pl-8 {\n  padding-left: 2rem;\n}\r\n.pt-2 {\n  padding-top: 0.5rem;\n}\r\n.text-left {\n  text-align: left;\n}\r\n.text-center {\n  text-align: center;\n}\r\n.text-2xl {\n  font-size: 1.5rem;\n  line-height: 2rem;\n}\r\n.text-3xl {\n  font-size: 1.875rem;\n  line-height: 2.25rem;\n}\r\n.text-4xl {\n  font-size: 2.25rem;\n  line-height: 2.5rem;\n}\r\n.text-6xl {\n  font-size: 3.75rem;\n  line-height: 1;\n}\r\n.text-base {\n  font-size: 1rem;\n  line-height: 1.5rem;\n}\r\n.text-lg {\n  font-size: 1.125rem;\n  line-height: 1.75rem;\n}\r\n.text-xl {\n  font-size: 1.25rem;\n  line-height: 1.75rem;\n}\r\n.font-bold {\n  font-weight: 700;\n}\r\n.font-extralight {\n  font-weight: 200;\n}\r\n.font-light {\n  font-weight: 300;\n}\r\n.font-medium {\n  font-weight: 500;\n}\r\n.font-semibold {\n  font-weight: 600;\n}\r\n.italic {\n  font-style: italic;\n}\r\n.text-black {\n  --tw-text-opacity: 1;\n  color: rgb(0 0 0 / var(--tw-text-opacity, 1));\n}\r\n.text-gray-600 {\n  --tw-text-opacity: 1;\n  color: rgb(75 85 99 / var(--tw-text-opacity, 1));\n}\r\n.text-gray-700 {\n  --tw-text-opacity: 1;\n  color: rgb(55 65 81 / var(--tw-text-opacity, 1));\n}\r\n.text-white {\n  --tw-text-opacity: 1;\n  color: rgb(255 255 255 / var(--tw-text-opacity, 1));\n}\r\n.shadow-md {\n  --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);\n  --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);\n  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);\n}\r\n\r\n.title {\n  font-size: 1.875rem;\n  line-height: 2.25rem;\n  font-weight: 700;\n}\r\n\r\n.subtitle {\n  font-size: 1.125rem;\n  line-height: 1.75rem;\n  font-weight: 700;\n}\r\n\r\n.content {\n  font-size: 1.125rem;\n  line-height: 1.75rem;\n}\r\n\r\n.subcontent {\n  font-size: 1rem;\n  line-height: 1.5rem;\n}\r\n\r\n/* styles.css */\r\n@media print {\r\n  .print-page {\r\n    page-break-after: always; /* Force a break after each logical page */\r\n  }\r\n\r\n  .page-break-after {\r\n    page-break-before: always;\r\n  }\r\n}\r\n\r\n.l2-height {\r\n  height: 60px; \r\n}\r\n\r\n.score-font-size {\r\n  font-size: 1.2rem; /* Adjust this value to your preference */\r\n}\r\n\r\n.odd\\:bg-gray-100:nth-child(odd) {\n  --tw-bg-opacity: 1;\n  background-color: rgb(243 244 246 / var(--tw-bg-opacity, 1));\n}\r\n\r\n.odd\\:bg-gray-50:nth-child(odd) {\n  --tw-bg-opacity: 1;\n  background-color: rgb(249 250 251 / var(--tw-bg-opacity, 1));\n}\r\n\r\n","future":{"v3_fetcherPersist":true,"v3_relativeSplatPath":true,"v3_throwAbortReason":true,"v3_routeConfig":false,"v3_singleFetch":true,"v3_lazyRouteDiscovery":true,"unstable_optimizeDeps":false},"isSpaMode":false};window.__remixContext.stream = new ReadableStream({start(controller){window.__remixContext.streamController = controller;}}).pipeThrough(new TextEncoderStream());</script><script type="module" async="">import "/@id/__x00__virtual:remix/inject-hmr-runtime";;
+    import * as route0 from "/app/root.tsx";
+    import * as route1 from "/app/routes/_index.tsx";
+    window.__remixManifest = {
+      "version": "0.09309722884326965",
+      "url": "/@id/__x00__virtual:remix/browser-manifest",
+      "hmr": {
+        "runtime": "/@id/__x00__virtual:remix/inject-hmr-runtime"
+      },
+      "entry": {
+        "module": "/node_modules/@remix-run/dev/dist/config/defaults/entry.client.tsx",
+        "imports": []
+      },
+      "routes": {
+        "root": {
+          "id": "root",
+          "path": "",
+          "module": "/app/root.tsx",
+          "hasAction": false,
+          "hasLoader": false,
+          "hasClientAction": false,
+          "hasClientLoader": false,
+          "hasErrorBoundary": false,
+          "imports": []
+        },
+        "routes/_index": {
+          "id": "routes/_index",
+          "parentId": "root",
+          "index": true,
+          "module": "/app/routes/_index.tsx",
+          "hasAction": false,
+          "hasLoader": false,
+          "hasClientAction": false,
+          "hasClientLoader": false,
+          "hasErrorBoundary": false,
+          "imports": []
+        }
+      }
+    };
+    window.__remixRouteModules = {"root":route0,"routes/_index":route1};
+    
+    import("/node_modules/@remix-run/dev/dist/config/defaults/entry.client.tsx");</script></body></html><!--$?--><template id="B:0"></template><!--/$--><div hidden id="S:0"><script>window.__remixContext.streamController.enqueue("[{\"_1\":2,\"_5\":-5,\"_6\":-5},\"loaderData\",{\"_3\":-5,\"_4\":-5},\"root\",\"routes/_index\",\"actionData\",\"errors\"]\n");</script><!--$?--><template id="B:1"></template><!--/$--></div><script>function $RC(a,b){a=document.getElementById(a);b=document.getElementById(b);b.parentNode.removeChild(b);if(a){a=a.previousSibling;var f=a.parentNode,c=a.nextSibling,e=0;do{if(c&&8===c.nodeType){var d=c.data;if("/$"===d)if(0===e)break;else e--;else"$"!==d&&"$?"!==d&&"$!"!==d||e++}d=c.nextSibling;f.removeChild(c);c=d}while(c);for(;b.firstChild;)f.insertBefore(b.firstChild,c);a.data="$";a._reactRetry&&a._reactRetry()}};$RC("B:0","S:0")</script><div hidden id="S:1"><script>window.__remixContext.streamController.close();</script></div><script>$RC("B:1","S:1")</script>
