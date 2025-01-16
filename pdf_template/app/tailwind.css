@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.title {
+  @apply text-3xl font-bold;
+}
+
+.subtitle {
+  @apply text-lg font-bold;
+}
+
+.content {
+  @apply text-lg;
+}
+
+.subcontent {
+  @apply text-base;
+}
+
+/* styles.css */
+@media print {
+  .print-page {
+    page-break-after: always; /* Force a break after each logical page */
+  }
+
+  .page-break-after {
+    page-break-before: always;
+  }
+}
+
+.l2-height {
+  height: 60px; 
+}
+
+.score-font-size {
+  font-size: 1.2rem; /* Adjust this value to your preference */
+}
+
