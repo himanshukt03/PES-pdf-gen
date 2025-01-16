@@ -25,7 +25,7 @@ This folder serves as the foundation for assembling static PDF pages using reusa
 
 ### Folder Structure
 Refer to the image below for a detailed view of the folder organization.
-![image](https://github.com/user-attachments/assets/a0bd065d-baa6-4ecc-87d4-3e9e5a8424fd)
+![image](https://github.com/user-attachments/assets/fe746cf9-e8f4-477f-b6dd-0fe1a8153e6f)
 
 ---
 
